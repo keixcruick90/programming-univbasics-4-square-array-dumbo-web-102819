@@ -1,9 +1,9 @@
 def square_array(array)
-  numbers = [1,2,3]
-  i = 0
-  new_array = []
-  while i < numbers.size do
-  new_array << (numbers[i]**)
-  end
-  new_array
+  squared = []
+    count = 0
+    while count < array.size do
+      squared << (array[count] ** 2)
+      count = count + 1
+    end
+    squared
 end
